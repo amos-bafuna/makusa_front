@@ -19,7 +19,7 @@ function SignUp() {
       <body>
         <div className="">
           <Header connectBtn={false} />
-          <div className="flex justify-evenly items-center h-screen">
+          <div className="flex justify-evenly items-center h-[90vh]">
             <div>
               <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
                 <div className="mb-4">
@@ -69,13 +69,13 @@ function SignUp() {
                 <div className="mb-6">
                   <label
                     className="block text-gray-700 text-sm font-bold mb-2"
-                    htmlFor="password"
+                    htmlFor="password2"
                   >
                     Confirmer mot de passe
                   </label>
                   <input
                     className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
-                    id="password"
+                    id="password2"
                     type="password"
                     placeholder="Votre mot de passe"
                   />
@@ -96,7 +96,7 @@ function SignUp() {
                 </div>
               </form>
             </div>
-            <div>
+            <div className="md:block hidden">
               <Image src="/login.svg" alt="login" width={500} height={500} />
             </div>
           </div>

@@ -28,15 +28,15 @@ export default function Home() {
             <div className="h-screen mx-12">
               <Header connectBtn={true} />
               <div className="flex items-center">
-                <div className="md:block hidden">
+                <div className="md:block hidden basis grow-0 shrink-0 w-[413px]">
                   <Image
-                    height={400}
                     width={400}
+                    height={537}
                     src="/mobile_app.png"
                     alt="mobile app"
                   />
                 </div>
-                <div className="flex flex-col justify-center items-center m-auto">
+                <div className="flex flex-col justify-center items-center w-full m-auto">
                   <div className="flex flex-col items-center">
                     <div className="text-baseColor items-center font-bold text-4xl">
                       Maintenant vous pouvez
@@ -44,7 +44,7 @@ export default function Home() {
                     <br />
                     <div className="text-3xl text-center">
                       manger ce que vous voulez, où vous voulez avec
-                      <span>Makusa</span>
+                      <span className="ml-2"> Makusa</span>
                     </div>
                   </div>
                   <div className="mt-5">

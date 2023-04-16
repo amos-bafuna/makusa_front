@@ -3,9 +3,11 @@ import Link from 'next/link';
 
 function Header({ connectBtn }: any) {
   return (
-    <div className="flex md:justify-between items-center w-full py-3  border-b">
+    <div className="flex md:justify-between items-center w-full pt-3  border-b">
       <div className="md:block hidden">
-        <Image src="/logo_makusa.png" alt="Logo" width={140} height={140} />
+        <Link href="/">
+          <Image src="/logo_makusa.png" alt="Logo" width={140} height={140} />
+        </Link>
       </div>
       <nav className="flex items-center font-mono">
         <div className="mx-3">
