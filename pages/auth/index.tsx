@@ -58,19 +58,19 @@ function SignIn() {
                     className="bg-baseColor hover:opacity-80 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                     type="button"
                   >
-                    Sign In
+                    Connexion
                   </button>
-                  <a
+                  <Link
                     className="inline-block align-baseline font-bold text-xs text-blue-500 hover:text-blue-800"
-                    href="#"
+                    href="/auth/signup"
                   >
-                    Forgot Password?
-                  </a>
+                    Pas de compte?
+                  </Link>
                 </div>
               </form>
             </div>
             <div>
-              <Image src="/login.svg" alt="login" width={500} height={500} />
+              <Image src="/login2.svg" alt="login" width={500} height={500} />
             </div>
           </div>
         </div>
